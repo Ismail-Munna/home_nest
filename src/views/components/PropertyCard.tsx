@@ -58,7 +58,8 @@ export const PropertyCard: React.FC<Props> = ({ property }) => {
               <span>{property.sqft || 0} sqft</span>
             </div>
           </div>
-          <Link to={/properties/${property.id}} className="block">
+       
+<Link to={`/properties/${property.id}`} className="block">
             <button className="w-full bg-[#0c1322] hover:bg-slate-800 text-white py-3.5 rounded-xl font-bold text-sm transition-colors">
               View Details
             </button>
